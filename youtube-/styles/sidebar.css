@@ -1,0 +1,64 @@
+.sidebar{
+    background-color: white;
+    padding-top: 5px;;
+    position: fixed;
+    top:55px;
+    left: 0;
+    bottom: 0;
+    width:235px;
+    z-index: 120;
+    transition: background-color 2s;
+    
+}
+.sidebar button{
+    width: 235px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: none;
+    
+
+}
+
+.sidebar img{
+    height: 25px;
+    padding-right: 5px;
+    margin-right: 10px;
+    border-radius:12px;
+}
+.subscription-icon{
+    margin-bottom: 20px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+
+.sub{
+    padding-left:7px;
+    margin-bottom: 7px;
+}
+.liked-videos{
+    margin-bottom:20px;
+}
+
+.explore{
+    padding-left:7px;
+    margin-bottom: 7px;
+}
+.browse-channel{
+    margin-bottom:20px;
+}
+.sidebar-button:hover,
+.subscription-icon:hover,
+.liked-videos:hover,
+.browse-channel:hover {
+    border-radius:6px;
+    background-color: rgb(238, 230, 230);
+    cursor: pointer;
+    
+}
+.sidebar{
+    
+    overflow:auto;
+}
